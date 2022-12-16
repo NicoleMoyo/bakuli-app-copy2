@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.createAccountRootRootRoot {
+    width: 1076px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 182px 573px 182px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.timberwolfText {
+    width: 47px;
+    height: 22px;
+    left: 517px;
+    top: 1226px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 160px 8px 126px;
+    font-size: 18px;
+    font-family: Inter;
+    white-space: nowrap;
+    background-color: rgba(218, 218, 217, 0.5);
+}
+
+.flexColumn {
+    position: relative;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flexColumn1 {
+    gap: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text1 {
+    width: 416px;
+    color: #32580d;
+    font-size: 24px;
+    font-family: Manrope;
+    line-height: 36px;
+}
+
+.text2 {
+    width: 416px;
+    color: #32580d;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Manrope;
+    line-height: 72px;
+}
+
+.flexColumn2 {
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexColumn3 {
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+}
+
+.flexColumn4 {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.image1 {
+    width: 20px;
+    height: 20px;
+}
+
+.vuesaxlineareye {
+    width: 24px;
+    height: 24px;
+}
+
+.button1 {
+    width: 384px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Manrope;
+    line-height: 28px;
+    white-space: nowrap;
+    border-width: 0px;
+    border-radius: 12px;
+    box-sizing: content-box;
+    background-color: rgba(76, 132, 21, 0.5);
+    cursor: pointer;
+}
+
+.button1:hover {
+    opacity: 70%;
+}
+
+.text6 {
+    color: #16161d;
+    font-size: 18px;
+    font-family: Inter;
+    white-space: nowrap;
+}
+
+.text7 {
+    color: #4c8414;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter;
+    white-space: nowrap;
+}
+
+.onboardingSlider {
+    width: 416px;
+    height: 466px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: center;
+    margin: 43px 0px 0px 0px;
+}
+
+.onlineGroceriesamico {
+    width: 320px;
+    height: 320px;
+}
+
+.flexColumn5 {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: center;
+}
+
+.flexColumn6 {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+}
+
+.foodLogging {
+    width: 416px;
+    color: #16161d;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Manrope;
+    line-height: 30px;
+    text-align: center;
+    white-space: pre-wrap;
+    letter-spacing: 0.1px;
+}
+
+.paragraph {
+    width: 416px;
+    color: #16161d;
+    font-size: 18px;
+    font-family: Manrope;
+    line-height: 28px;
+    text-align: center;
+    white-space: pre-wrap;
+}

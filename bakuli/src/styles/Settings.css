@@ -1,0 +1,201 @@
+
+.cards-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0 auto;
+    min-width: 26em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.title-01-bold {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 2.25em;
+}
+
+.card-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0.75em;
+    width: 100%;
+}
+
+.line { 
+    width: 100%;
+    height: 0;
+    border: 1px solid #D3D4DE;
+}
+
+.card-heading-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0.25em;
+    width: 100%;
+}
+
+.card-body1 {
+    padding: 16px 12px;
+    width: 100%;
+}
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0 16px 12px;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5em 1.5em 1em;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 0.75em;
+    margin: 0 auto;
+    width: 100%
+}
+
+.card-body2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+}
+
+.arrow-btn,.arrow-btn-destr {
+    cursor: pointer;
+    padding: 0.5em 0.5em;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.arrow-btn:hover {
+    background-color: #4CAF50;
+}
+
+.arrow-btn-destr:hover {
+    background-color: #f44336;
+}
+
+.LogOutButton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4C8415;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.LogOutButton:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+}
+
+
+.DeleteAccountButton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4C8415;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.DeleteAccountButton:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+/* card {
+    display: inline-block;
+    width: 700px;
+    height: 100px;
+    margin: 10px;
+    padding: 30px 20px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgb(218, 216, 216);
+    background-color: #fff;
+} */
+
+/* card {
+  display: inline-block;
+  width: 700px;
+  height: 100px;
+  margin: 10px;
+  padding: 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  } */
+
+/* card div {
+  margin-bottom: 500px;
+  } */
+
+input[type="checkbox"] {
+    margin-right: 1em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+form button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-family: Manrope, sans-serif;
+    /* background-color: #cfc6c6;
+    color: white; */
+    font-weight: bold;
+    margin: 8px;
+    margin-left: 1.5em;
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+* form input[type="number"] {
+    width: 10%;
+    min-width: 4.5em;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+
+
+form button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+}
+
+form input:focus+button {
+    background-color: #4C8415;
+    color: white;
+}
+
+form input:focus+button:hover {
+    background-color: #3e8e41;
+}
+
+form input:valid+button:disabled {
+    background-color: #4CAF50;
+}
+
+form input:invalid+button:disabled {
+    background-color: #ccc;
+}

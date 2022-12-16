@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset Password</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        color: #16161d;
+        margin: 4.5em;
+        font-family: Manrope, sans-serif;
+      }
+      .display-02-bold {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: Manrope;
+        line-height: 72px;
+        color: #32580d;
+        margin-bottom: 0.5em;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 26em;
+        margin: auto;
+        align-items: center;
+      }
+
+      .input-field {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+      }
+
+      input {
+        border-radius: 0.75em;
+        padding: 0.75em 1em;
+        border-width: 1px;
+        font-family: Manrope, sans-serif;
+        display: block;
+        width: 100%;
+        margin-top: 0.5em;
+      }
+
+      button {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0.75em 1em;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: Manrope, sans-serif;
+        line-height: 28px;
+        white-space: nowrap;
+        border-width: 0px;
+        border-radius: 12px;
+        background-color: #4c8415;
+        cursor: pointer;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+          0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+        margin-top: 3em;
+      }
+
+      button:hover {
+        background-color: #65b01c;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+          0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+      }
+
+      button:active {
+        background-color: #33580e;
+        box-shadow: none;
+      }
+    </style>
+    <script>
+      var status = "<%- JSON.stringify(status) %>";
+      console.log(status);
+      if (JSON.parse(status) == "1") {
+        window.location.href = "http://localhost:3000/signin";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-02-bold primary-color">Reset Password</h1>
+      <form action="" method="POST">
+        <div className="input-field">
+          <label for="password">Password (at least 6 characters)</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <button type="submit" value="submit">Reset Password</button>
+      </form>
+    </div>
+  </body>
+</html>

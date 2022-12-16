@@ -1,0 +1,110 @@
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    gap: 1em;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 0.75em;
+    width: 100%;
+    min-width: 30em;
+    margin: 0 auto;
+}
+
+.article-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+}
+
+.article-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #16161D;
+}
+
+.article-date-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0.5em;
+    width: 100%;
+}
+
+.dot {
+    width: 0.25em;
+    height: 0.25em;
+    background-color: #585874;
+    border-radius: 0.25em;
+}
+
+.article-date {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #585874;
+}
+
+.article-body {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #16161D;
+    width: 100%;
+}
+
+.article-illustration { 
+    border-radius: 12px;
+    width: 100%;
+}
+
+.articles-render {
+    display: flex;
+    width: 80%;
+    gap: 3em;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em auto;
+}
+
+.search-input {
+    width: 60%;
+}
+
+.individual-article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: flex-start;
+    width: 90%;
+    margin: 3em auto;
+}
+
+ul {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-style: italic;
+    font-weight: 700;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+h3 {
+    margin-top: 1em;
+}

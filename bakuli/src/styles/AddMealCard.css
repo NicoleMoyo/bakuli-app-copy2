@@ -1,0 +1,21 @@
+.addmealcard-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75em;
+    width: 17.625em;
+    height: 17.625em;
+    border: 1px solid #D4D4DE;
+    padding: 1em 1.5em 1.5em 1em;
+}
+
+.meal-btn {
+   position: relative;
+   left: 12em;
+   bottom: 1.5em;
+}
+
+.card-img {
+    position: relative;
+    left: 2em;
+    bottom: 0.5em;
+}
